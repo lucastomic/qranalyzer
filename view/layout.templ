@@ -1,0 +1,14 @@
+package view
+
+templ Layout(content templ.Component) {
+	<html>
+		<head>
+			<link rel="stylesheet" href="/public/css/tw.css"/>
+		</head>
+		<body>
+			<div class="w-full ">
+				@content
+			</div>
+		</body>
+	</html>
+}
